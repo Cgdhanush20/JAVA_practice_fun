@@ -20,5 +20,6 @@ public class Fibonacci_Hashmap
         int n = sc.nextInt();
         Fibonacci_Hashmap f = new Fibonacci_Hashmap();
         System.out.println("Fibonacci of " + n + " is: " + f.fib(n));
+        sc.close();
     }
 }

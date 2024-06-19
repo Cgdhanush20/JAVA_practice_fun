@@ -86,7 +86,7 @@ public class SortingInterface
     public static void main(String args[])
     {
         int[] a={22,11,44,32,10,7,5};
-        int[] b={100,99,88,77,66,55,44,11};
+        int[] b={6,5};
         SortAlgorithm s1=new BubbleSort();
         SortAlgorithm s2=new MergeSort();
         s1.sort(a);

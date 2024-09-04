@@ -3,7 +3,7 @@ public class BackTracking_ex1_permutation
 {
 	public static void main(String[] args) 
 	{
-	    int a[]={1,2,3};
+	    	int a[]={1,2,3};
 		List<List<Integer>> r=new ArrayList<>();
 		backtracking(a,new ArrayList<>(),r);
 		System.out.println(r);
